@@ -1,0 +1,80 @@
+<h2>Emmet Özellikleri</h2>
+<!-- 
+    + kardeş öge için
+    > içinde öge için
+    ^ yukarı öge için
+    * çarp ->p*3 mesela 3 paragraf açar ve kapatır
+    lorem -> çok uzun anlamsız kelimeler dizisi
+    lorem4 -> 4 anlamsız kelime dizisi
+    . -> class
+    # -> id     
+ -->
+ <!-- + kardeş öge için örnek;
+h1+p+p+h2+p+p+p+p -->
+<h1></h1>
+<p></p>
+<p></p>
+<h2></h2>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<!-- + ve * için örnek;
+h1+p*2+h2+p*4 -->
+<h1></h1>
+<p></p>
+<p></p>
+<h2></h2>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<!-- > içinde için örnek;
+ul>li -->
+<ul>
+    <li></li>
+</ul>
+<!-- + * > karışık örnek için sıralamaya dikkat edin
+ul>li*3^p*3+h1 -->
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+<p></p>
+<p></p>
+<p></p>
+<h1></h1>
+<!-- lorem için örnek;
+ul>li*3>lorem1^^p*2>lorem4^h3>lorem1 -->
+<ul>
+    <li>Lorem.</li>
+    <li>Harum!</li>
+    <li>Aliquam.</li>
+</ul>
+<p>Lorem ipsum dolor sit.</p>
+<p>Numquam vero alias perferendis.</p>
+<h3>Lorem.</h3>
+<!-- . class için örnek;
+h3.deneme>lorem1 -> arada boşluk olmayacak dikkat e(boşluk olursa bambaşka bir şey olur!)-->
+<h3 class="deneme">Lorem.</h3>
+<!--# id için örnek;
+h3#idolussun>lorem1 -->
+<h3 id="idolussun">Lorem.</h3>
+<!-- . ve # beraber kullanımı için örnek;
+h1.deneme#idolussun>lorem1 -->
+<h1 class="deneme" id="idolussun">Lorem.</h1>
+<!-- $ -> otomatik artış sağlayan değerleri tek tek yazmak yerine bu kısa yolu kullanabiliriz;
+ul>li#idNo$*3 -->
+<ul>
+    <li id="idNo1"></li>
+    <li id="idNo2"></li>
+    <li id="idNo3"></li>
+</ul>
+<!-- {} -> emmet ile tag lerin içine text yazmak için kullanılır örneğin;
+p{emmet ile tag lerin içine text yazmak}
+h2{emmet ile tag lerin içine text yazmak} -->
+<p>emmet ile tag lerin içine text yazmak</p>
+<h2>emmet ile tag lerin içine text yazmak</h2>
+
+

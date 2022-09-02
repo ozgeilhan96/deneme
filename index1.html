@@ -1,0 +1,85 @@
+<h1>Listeler</h1>
+<!-- Sıralı listeler için ordered -> ol
+    Sırasız listeler için unordered -> ul
+    ve içlerinde liste oluşturmak için ->li -->
+    <h2>Sıralı Liste Örnekleri</h2>
+    <!-- 1,2,3,4... diye sıralanmasını istediğimizde; type="1" -->
+    <ol>
+        <li>Erik</li>
+        <li>Çilek</li>
+        <li>Karpuz</li>
+    </ol>
+    <!-- A,B,C,D... diye sıralanmasını istediğimizde; type="A" -->
+    <ol type="A">
+        <li>Erik</li>
+        <li>Çilek</li>
+        <li>Karpuz</li>
+    </ol>
+    <!-- Roma rakamlarıyla I,II,III... diye sıralanmasını istediğimizde; type="I" -->
+    <ol type="I">
+        <li>Erik</li>
+        <li>Çilek</li>
+        <li>Karpuz</li>
+    </ol>
+    <!-- Belli bir sayıdan başlayıp mesela 32,33,34... diye sıralanmasını istediğimizde; type="32" -->
+    <ol start="32">
+        <li>Erik</li>
+        <li>Çilek</li>
+        <li>Karpuz</li>
+    </ol>
+    <h2>Sırasız Liste Örnekleri</h2>
+    <!-- İçi dolu yuvarlak ile sıralamasız liste yapmak istediğimizde;(bunu aynı zamanda; type="disc" ile 
+        de yapabiliriz.) -->
+    <ul>
+        <li>Erik</li>
+        <li>Çilek</li>
+        <li>Karpuz</li>
+    </ul>
+    <!-- içi boş yuvarlaklar ile sıralamasız liste yapmak istediğimizde; type="circle" -->
+    <ul type="circle">
+        <li>Erik</li>
+        <li>Çilek</li>
+        <li>Karpuz</li>
+    </ul>
+    <!-- İçi dolu kareler ile sıralamasız liste yapmak istediğimizde; type="square" -->
+    <ul type="square">
+        <li>Erik</li>
+        <li>Çilek</li>
+        <li>Karpuz</li>
+    </ul>
+    <!-- Madde işaretleri kullanmadan sıralamasız liste yapmak istediğimizde; type="none" -->
+    <ul type="none">
+        <li>Erik</li>
+        <li>Çilek</li>
+        <li>Karpuz</li>
+    </ul>
+    <h2>Tanımlı Listeler</h2>
+    <!-- Tanımlı liste oluşturmak için defined liste(<dl></dl>) kullanılır, liste elemanı eklemek için(<dt></dt>)
+    kullanılır liste elemanı hakkında açıklama yapmak için(<dd></dd>) kullanılır. -->
+    <dl>
+        <dt>karpuz</dt>
+        <dd>yaz meyvesi</dd>
+        <dt>portakal</dt>
+        <dd>kış meyvesi</dd>
+    </dl>
+    <h2>İç İçe Listeler</h2>
+    <!-- iç içe liste oluşturmak için gereken tek şey <li> içerisinde tekrar ister sıralı ister sırasız 
+        olsun tekrar bir liste oluşturmaktır. -->
+    <ul>
+        <li>Kış meyveleri
+            <ul>
+                <li>portakal</li>
+                <li>mandalina</li>
+                <li>elma</li>
+            </ul>
+
+        </li>
+        <li>
+            Yaz meyveleri
+            <ul>
+                <li>karpuz</li>
+                <li>kavun</li>
+                <li>şeftali</li>
+            </ul>
+        </li>
+    </ul>
